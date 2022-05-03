@@ -10,3 +10,40 @@ body{
     font-family: 'Roboto', sans-serif;
     
 }
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex-container{
+    display: flex;
+}
+
+/* Header */
+header{
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+ul li{
+    list-style-type: none;
+    padding-right: 50px;
+}
+
+li a{
+    text-decoration: none;
+    color: black; 
+}
+
+.menu{
+    align-items: center;
+}
+
+.login{
+    align-items: center;
+}
+
+.all-menu{
+    justify-content: space-between;
+}

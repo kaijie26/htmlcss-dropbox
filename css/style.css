@@ -20,6 +20,22 @@ body{
     display: flex;
 }
 
+img{
+    width: 100%;
+}
+
+.btn-large{
+    background-color: #0061ff;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.btn-small{
+    color: black;
+    text-decoration: none;
+}
+
 /* Header */
 header{
     background-color: aquamarine;
@@ -47,3 +63,53 @@ li a{
 .all-menu{
     justify-content: space-between;
 }
+
+/* Main */
+
+/* Section jumbotron */
+.jumbotron{
+    padding-top: 10px;
+    background-color: #b4d0e7;
+}
+
+h1{
+    font-size: 75px;
+}
+
+.narrow-col{
+    width: 31%;
+
+}
+
+.large-col{
+    width: 69%;
+
+}
+
+.jumbotron-colums .narrow-col p{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-weight: 500;
+
+}
+
+.jumbotron-colums .narrow-col div{
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.jumbotron-colums .narrow-col span{
+    display: inline-block;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.jumbotron-colums .large-col img{
+    width: 100%;
+    position: relative;
+    top: 55px;
+    left: 20px;
+}
+/* End Section Jumbotron */
+

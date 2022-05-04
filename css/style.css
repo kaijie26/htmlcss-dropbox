@@ -169,7 +169,7 @@ h2{
 
 .all-plans{
     justify-content: space-between;
-    padding-top: 30px;
+    padding: 30px 0
 
 }
 
@@ -193,7 +193,7 @@ h2{
     padding-top: 30px;
     padding-left: 25px;
     padding-right: 20px;
-    height: 1000px
+    height: 1000px;
 
 }
 
@@ -250,3 +250,32 @@ h4{
     color: #0262ff;
 }
 
+.column{
+    width: 100%;
+}
+
+.enterprise{
+    justify-content: space-between;
+}
+
+.contact-area-content{
+    padding: 25px;
+}
+
+.btn-contact{
+    background-color: #0061ff;
+    color: white;
+    text-decoration: none;
+    padding: 7px 70px;
+    font-size: 15px;
+
+}
+
+.contact-area-content h4{ 
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.contact-area-content :last-child{
+    font-size: 15px;
+}

@@ -15,6 +15,10 @@ body{
     width: 80%;
     margin: 0 auto;
 }
+.main-container{
+    width: 70%;
+    margin: 0 auto;
+}
 
 .flex-container{
     display: flex;
@@ -36,15 +40,29 @@ img{
     text-decoration: none;
 }
 
+.btn-free-trial{
+    background-color: #0061ff;
+    color: white;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: inline-block;
+    padding: 7px 45px;
+    font-size: 15px;
+}
+
 /* Header */
 header{
     background-color: aquamarine;
     padding: 20px;
 }
 
+header ul li{
+    padding-right: 50px;
+}
+
 ul li{
     list-style-type: none;
-    padding-right: 50px;
 }
 
 li a{
@@ -112,4 +130,123 @@ h1{
     left: 20px;
 }
 /* End Section Jumbotron */
+
+/* Section Plans Dropbox */
+.plans-dropbox{
+    padding-top: 120px;
+}
+
+h2{
+    font-size: 43px;
+    
+}
+
+.circle-selected{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 10px;
+    border: 6px solid #0061ff;;
+}
+
+.circle{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 10px;
+    border: 1px solid lightslategray;
+
+}
+
+.annual, .monthly{
+    vertical-align: middle;
+    display: inline-block;
+    padding-right: 20px;
+    padding-top: 40px;
+}
+
+.all-plans{
+    justify-content: space-between;
+    padding-top: 30px;
+
+}
+
+.col{
+    width: calc((100% / 3) - 42px);
+
+}
+
+.card{
+    border: 1px solid lightgray;
+
+}
+
+.category{
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    padding: 10px 0;
+}
+
+.text-plan{
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 20px;
+    height: 1000px
+
+}
+
+h3{
+    font-size: 30px;
+}
+
+.user{
+    padding: 0 5px;
+}
+
+.price{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.duration{
+    font-size: 15px;
+    color: #8e9aa4;
+    padding-bottom: 30px;
+}
+
+.list-advance li{
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.link-buy{
+    font-size: 15px;
+
+}
+
+.link-buy a{
+    color: #307eff;
+}
+
+hr{
+    width: 50px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+h4{
+    font-size: 18px;
+}
+
+.important-points li{
+    padding: 15px 0;
+    font-size: 15px;
+}
+
+.check{
+    color: #0262ff;
+}
 

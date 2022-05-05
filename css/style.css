@@ -53,7 +53,6 @@ img{
 
 /* Header */
 header{
-    background-color: aquamarine;
     padding: 20px;
 }
 
@@ -441,3 +440,42 @@ h4{
 }
 
 /* End Section Frequent Questions */
+
+footer{
+    background-color: black;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    
+}
+
+.footer-colums{
+    width: calc(100% / 5);
+   
+}
+
+.footer-colums ul{
+    line-height: 25px;
+}
+
+.footer-colums ul li a {
+    color: white;
+}
+
+footer h3{
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+footer hr{
+    width: 11%;
+}
+
+.footer-bottom{
+    color:#585858
+}
+
+
+
+
+

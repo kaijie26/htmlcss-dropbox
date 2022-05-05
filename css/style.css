@@ -107,7 +107,6 @@ h1{
 .jumbotron-colums .narrow-col p{
     padding-top: 50px;
     padding-bottom: 30px;
-    font-weight: 500;
 
 }
 
@@ -315,3 +314,78 @@ h4{
     padding: 7px 22px;
 
 }
+/* End Section Parter contact */
+
+/* Section Dropbox operations */
+
+.dropbox-operations h2{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.all-operations{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.all-operations .card{
+    border: none;
+    padding-bottom: 100px;
+}
+
+/* End Section Dropbox operations */
+
+/* Section Partners */
+
+.partners a{
+    color: #307eff;
+    padding: 20px 0;
+    display: inline-block;
+}
+
+.partners-container{
+    padding-top: 20px;
+}
+
+.partners-logo{
+   
+    width: 400px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    
+}
+
+.partners-text{
+    background-color: bisque;
+    flex-grow: 1;
+    padding: 50px;
+
+}
+
+.partners-box{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.partners-box img{
+    width: 150px;
+    filter: invert(1);
+
+}
+
+.partners-text img{
+    width: 150px;
+}
+
+.partners-text :last-child{
+    padding-top: 50px;
+}
+
+/* End Section Partners */
+
+/*  */

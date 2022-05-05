@@ -388,4 +388,33 @@ h4{
 
 /* End Section Partners */
 
-/*  */
+/* Section Dropbox trial */
+
+.dropbox-trial{
+    background-color: #b4d0e7;
+    height: 300px;
+}
+
+.dropbox-trial div{
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.dropbox-trial h2{
+    color: #61082b;
+}
+
+.btn-trial{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 7px 70px;
+    font-size: 15px;
+    margin-bottom: 60px;
+
+}
+
+/* End Section Dropbox trial */
+
+/* Section Frequent Questions */

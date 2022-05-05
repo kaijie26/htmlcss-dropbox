@@ -418,3 +418,26 @@ h4{
 /* End Section Dropbox trial */
 
 /* Section Frequent Questions */
+.frequent-questions{
+    padding: 100px 0;
+}
+
+.frequent-questions hr{
+    color: lightgray;
+    width: 100%;
+}
+
+.row{
+    justify-content: space-between;
+    
+}
+
+.row span{
+    font-weight: bold;
+}
+
+.down{
+    padding-right: 30px;
+}
+
+/* End Section Frequent Questions */
